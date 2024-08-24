@@ -6,7 +6,7 @@ function App() {
     <div className="flex flex-col w-screen h-screen bg-[#1A0000] overflow-hidden">
       {/* Header Section */}
       <div className="flex justify-start h-[15vh] md:h-[20vh] w-screen pl-4 md:pl-12">
-        <h1 className="text-[#A11833] content-center text-2xl sm:text-3xl md:text-4xl lg:text-5xl">
+        <h1 className="text-[#A11833] content-center text-xl sm:text-2xl md:text-4xl lg:text-5xl whitespace-nowrap">
           <span className="font-semibold">LIBLAB </span>
           <span className="font-light">SWARTHMORE</span>
         </h1>
@@ -15,7 +15,7 @@ function App() {
       {/* Main Content */}
       <div className="flex flex-col justify-end h-[10vh] md:h-[12vh] w-screen pl-4 md:pl-12">
         <a href='https://swat-ds.github.io/liblab/' target="_blank" rel="noopener noreferrer">
-          <h1 className="content-start text-5xl sm:text-6xl md:text-7xl lg:text-8xl">
+          <h1 className="content-start text-2xl sm:text-4xl md:text-7xl lg:text-8xl whitespace-nowrap">
             <span className="font-medium">ds@</span>
             <span className="font-extrabold">SWAT </span>
             <span className="font-medium">syllabus</span>
@@ -27,7 +27,7 @@ function App() {
       {/* Sign-Up Form */}
       <div className="flex flex-col justify-end h-[10vh] md:h-[12vh] w-screen pl-4 md:pl-12">
         <a href='https://docs.google.com/forms/d/e/1FAIpQLSe8ULGOedRW8gNlLjGMoWDBoDe6DhL6kC665gcZLhUG7MB2ug/viewform?usp=sf_link' target="_blank" rel="noopener noreferrer">
-          <h1 className="content-start text-5xl sm:text-6xl md:text-7xl lg:text-8xl">sign-up form</h1>
+          <h1 className="content-start text-2xl sm:text-4xl md:text-7xl lg:text-8xl whitespace-nowrap">sign-up form</h1>
         </a>
         <Line width="40%" thickness="2px" color="#A11833" />
       </div>
@@ -35,7 +35,7 @@ function App() {
       {/* Immersive Realities */}
       <div className="flex flex-col justify-end h-[10vh] md:h-[12vh] w-screen pl-4 md:pl-12">
         <a href='https://ahmad-fayyaz.github.io/LibLabMain/' target="_blank" rel="noopener noreferrer">
-          <h1 className="content-start text-5xl sm:text-6xl md:text-7xl lg:text-8xl">immersive realities</h1>
+          <h1 className="content-start text-2xl sm:text-4xl md:text-7xl lg:text-8xl whitespace-nowrap">immersive realities</h1>
         </a>
         <Line width="40%" thickness="2px" color="#A11833" />
       </div>
@@ -43,14 +43,14 @@ function App() {
       {/* Docs Section */}
       <div className="flex flex-col justify-end h-[10vh] md:h-[12vh] w-screen pl-4 md:pl-12">
         <a href='https://swat-ds.github.io/docsLibLab/' target="_blank" rel="noopener noreferrer">
-          <h1 className="content-start text-5xl sm:text-6xl md:text-7xl lg:text-8xl">docs.</h1>
+          <h1 className="content-start text-2xl sm:text-4xl md:text-7xl lg:text-8xl whitespace-nowrap">docs.</h1>
         </a>
         <Line width="40%" thickness="2px" color="#A11833" />
       </div>
 
       {/* GitHub Section */}
       <div className="flex flex-col justify-end h-[10vh] md:h-[12vh] w-screen pl-4 md:pl-12">
-        <h1 className="content-start text-5xl sm:text-6xl md:text-7xl lg:text-8xl">github.</h1>
+        <h1 className="content-start text-2xl sm:text-4xl md:text-7xl lg:text-8xl whitespace-nowrap">github.</h1>
         <Line width="40%" thickness="2px" color="#A11833" />
       </div>
 
