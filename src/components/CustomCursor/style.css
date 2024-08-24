@@ -1,0 +1,12 @@
+.app-cursor {
+    z-index: 1000;
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    background-color: white; /* Default color */
+    pointer-events: none;
+    overflow: hidden;
+    transform: translate3d(0, 0, 0);
+    position: fixed;
+    transition: background-color 0.3s ease; /* Smooth transition for color change */
+}

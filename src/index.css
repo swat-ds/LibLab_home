@@ -1,0 +1,20 @@
+@import url("https://use.typekit.net/wvd0jfw.css");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+    &,
+    * {
+        cursor: none;
+    }
+}
+
+:root {
+    font-family: "tt-commons-pro", sans-serif;
+    color: #ffffff;
+}
+
+
+/* Custom cursor */
