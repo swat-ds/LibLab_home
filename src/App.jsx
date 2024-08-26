@@ -1,6 +1,6 @@
-import './App.css'
-import Line from './components/Line.jsx'
-import { motion } from 'framer-motion'
+import './App.css';
+import Line from './components/Line.jsx';
+import { motion } from 'framer-motion';
 
 function App() {
   const fadeInAnimation = {
@@ -11,6 +11,11 @@ function App() {
   const transitionSettings = {
     duration: 1,
     ease: 'easeOut'
+  };
+
+  const hoverScaleSettings = {
+    scale: 1.01,  // Slightly increased scale
+    transition: { duration: 0.2, ease: 'easeInOut' }  // Smoother scaling transition
   };
 
   return (
@@ -33,13 +38,18 @@ function App() {
         animate={fadeInAnimation}
         transition={{ ...transitionSettings, delay: 0.25 }}
       >
-        <a href='https://swat-ds.github.io/liblab/' target="_blank" rel="noopener noreferrer">
-          <h1 className="content-start text-4xl sm:text-5xl md:text-7xl lg:text-8xl whitespace-nowrap">
+        <motion.a
+          href='https://swat-ds.github.io/liblab/'
+          target="_blank"
+          rel="noopener noreferrer"
+          whileHover={hoverScaleSettings}  // Smoother scaling on hover
+        >
+          <motion.h1 className="content-start text-4xl sm:text-5xl md:text-7xl lg:text-8xl whitespace-nowrap">
             <span className="font-medium">ds@</span>
             <span className="font-extrabold">SWAT </span>
             <span className="font-medium">syllabus</span>
-          </h1>
-        </a>
+          </motion.h1>
+        </motion.a>
         <Line width="40%" thickness="2px" color="#A11833" />
       </motion.div>
 
@@ -49,9 +59,16 @@ function App() {
         animate={fadeInAnimation}
         transition={{ ...transitionSettings, delay: 0.5 }}
       >
-        <a href='https://docs.google.com/forms/d/e/1FAIpQLSe8ULGOedRW8gNlLjGMoWDBoDe6DhL6kC665gcZLhUG7MB2ug/viewform?usp=sf_link' target="_blank" rel="noopener noreferrer">
-          <h1 className="content-start text-4xl sm:text-5xl md:text-7xl lg:text-8xl whitespace-nowrap">sign-up form</h1>
-        </a>
+        <motion.a
+          href='https://docs.google.com/forms/d/e/1FAIpQLSe8ULGOedRW8gNlLjGMoWDBoDe6DhL6kC665gcZLhUG7MB2ug/viewform?usp=sf_link'
+          target="_blank"
+          rel="noopener noreferrer"
+          whileHover={hoverScaleSettings}  // Smoother scaling on hover
+        >
+          <motion.h1 className="content-start text-4xl sm:text-5xl md:text-7xl lg:text-8xl whitespace-nowrap">
+            sign-up form
+          </motion.h1>
+        </motion.a>
         <Line width="40%" thickness="2px" color="#A11833" />
       </motion.div>
 
@@ -61,9 +78,16 @@ function App() {
         animate={fadeInAnimation}
         transition={{ ...transitionSettings, delay: 0.75 }}
       >
-        <a href='https://ahmad-fayyaz.github.io/LibLabMain/' target="_blank" rel="noopener noreferrer">
-          <h1 className="content-start text-4xl sm:text-5xl md:text-7xl lg:text-8xl whitespace-nowrap">immersive realities</h1>
-        </a>
+        <motion.a
+          href='https://ahmad-fayyaz.github.io/LibLabMain/'
+          target="_blank"
+          rel="noopener noreferrer"
+          whileHover={hoverScaleSettings}  // Smoother scaling on hover
+        >
+          <motion.h1 className="content-start text-4xl sm:text-5xl md:text-7xl lg:text-8xl whitespace-nowrap">
+            immersive realities
+          </motion.h1>
+        </motion.a>
         <Line width="40%" thickness="2px" color="#A11833" />
       </motion.div>
 
@@ -73,9 +97,16 @@ function App() {
         animate={fadeInAnimation}
         transition={{ ...transitionSettings, delay: 1 }}
       >
-        <a href='https://swat-ds.github.io/docsLibLab/' target="_blank" rel="noopener noreferrer">
-          <h1 className="content-start text-4xl sm:text-5xl md:text-7xl lg:text-8xl whitespace-nowrap">docs.</h1>
-        </a>
+        <motion.a
+          href='https://swat-ds.github.io/docsLibLab/'
+          target="_blank"
+          rel="noopener noreferrer"
+          whileHover={hoverScaleSettings}  // Smoother scaling on hover
+        >
+          <motion.h1 className="content-start text-4xl sm:text-5xl md:text-7xl lg:text-8xl whitespace-nowrap">
+            docs.
+          </motion.h1>
+        </motion.a>
         <Line width="40%" thickness="2px" color="#A11833" />
       </motion.div>
 
@@ -85,7 +116,12 @@ function App() {
         animate={fadeInAnimation}
         transition={{ ...transitionSettings, delay: 1.25 }}
       >
-        <h1 className="content-start text-4xl sm:text-5xl md:text-7xl lg:text-8xl whitespace-nowrap">github.</h1>
+        <motion.h1
+          className="content-start text-4xl sm:text-5xl md:text-7xl lg:text-8xl whitespace-nowrap"
+          whileHover={hoverScaleSettings}  // Smoother scaling on hover
+        >
+          github.
+        </motion.h1>
         <Line width="40%" thickness="2px" color="#A11833" />
       </motion.div>
 
