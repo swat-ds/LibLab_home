@@ -79,7 +79,7 @@ function App() {
         transition={{ ...transitionSettings, delay: 0.75 }}
       >
         <motion.a
-          href='https://ahmad-fayyaz.github.io/LibLabMain/'
+          href='https://swat-ds.github.io/LibLabMain/'
           target="_blank"
           rel="noopener noreferrer"
           whileHover={hoverScaleSettings}  // Smoother scaling on hover
