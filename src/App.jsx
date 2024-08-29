@@ -45,8 +45,8 @@ function App() {
           whileHover={hoverScaleSettings}  // Smoother scaling on hover
         >
           <motion.h1 className="content-start text-4xl sm:text-5xl md:text-7xl lg:text-8xl whitespace-nowrap">
-            <span className="font-medium">LibLab</span>
-            <span className="font-extrabold">Fellowship</span>
+            <span className="font-medium">LibLab&nbsp;</span>
+            <span className="font-extrabold">Fellowship&nbsp; </span>
             <span className="font-medium">syllabus</span>
           </motion.h1>
         </motion.a>
