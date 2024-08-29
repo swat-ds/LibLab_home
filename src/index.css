@@ -7,7 +7,7 @@ html,
 body {
     &,
     * {
-        cursor: none;
+        /* cursor: none; */
     }
 }
 
