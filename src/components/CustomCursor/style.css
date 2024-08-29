@@ -13,8 +13,8 @@
 }
 
 /* Hide cursor on screens smaller than 768px */
-/* @media (max-width: 768px) {
+@media (max-width: 768px) {
     .app-cursor {
         display: none;
     } 
-}*/
+}
