@@ -5,14 +5,11 @@
 
 html,
 body {
+    background-color: gray !important;
     &,
     * {
         /* cursor: none; */
     }
-}
-
-#root {
-    background-color: gray !important;
 }
 
 :root {
