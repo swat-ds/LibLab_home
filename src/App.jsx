@@ -19,7 +19,7 @@ function App() {
   };
 
   return (
-    <div className="flex flex-col w-screen h-screen bg-[#1A0000] overflow-hidden">
+    <div className="flex flex-col w-screen h-screen bg-[#CFCFCF] overflow-hidden">
       {/* Header Section */}
       <motion.div
         className="flex justify-start h-[15vh] md:h-[20vh] w-screen pl-4 md:pl-12"
