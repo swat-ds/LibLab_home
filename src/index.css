@@ -5,7 +5,6 @@
 
 html,
 body {
-    background-color: gray;
     &,
     * {
         /* cursor: none; */
@@ -15,6 +14,7 @@ body {
 :root {
     font-family: "tt-commons-pro", sans-serif;
     color: #ffffff;
+    background-color: gray;
 }
 
 
