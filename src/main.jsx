@@ -9,5 +9,3 @@ import './index.css'
     <App />
  </StrictMode>,
   )
-
-  document.body.classList.add('background-gray');
