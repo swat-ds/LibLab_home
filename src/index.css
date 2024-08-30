@@ -15,6 +15,11 @@ body {
     font-family: "tt-commons-pro", sans-serif;
     color: #000000;
 }
-
+@media (max-width: 768px), (max-height: 500px) { 
+    body { 
+        background-color: grey;
+        height: 100%;
+    }
+}  
 
 /* Custom cursor */
