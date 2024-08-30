@@ -17,8 +17,7 @@ body {
 }
 @media (max-width: 768px), (max-height: 500px) { 
     body { 
-        background-color: grey;
-        height: 100%;
+        font-size: 5px;
     }
 }  
 
