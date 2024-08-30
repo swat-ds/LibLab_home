@@ -11,10 +11,13 @@ body {
     }
 }
 
+#root {
+    background-color: gray !important;
+}
+
 :root {
     font-family: "tt-commons-pro", sans-serif;
     color: #ffffff;
-    background-color: gray;
 }
 
 
