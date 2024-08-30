@@ -5,7 +5,6 @@
 
 html,
 body {
-    background-color: gray !important;
     &,
     * {
         /* cursor: none; */
